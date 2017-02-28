@@ -21,6 +21,8 @@
   'components/header',
   'components/navigation',
   'components/article',
+  'components/apps',
+  'components/app-page',
   'components/archives',
   'components/social',
   'components/buttons',
@@ -37,3 +39,7 @@
 // Vendor
 @import
   'vendor/syntax-highlighting';
+
+// Font Awesome
+@import
+  'font-awesome/font-awesome';

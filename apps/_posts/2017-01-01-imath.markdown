@@ -1,0 +1,14 @@
+---
+layout: app
+title: iMath
+subtitle: Addition, Subtraction, Multiplication, Division
+icon: http://is2.mzstatic.com/image/thumb/Purple6/v4/ef/16/e6/ef16e67d-bed2-84e8-abb6-083561883cba/source/175x175bb.jpg
+appstore_url: https://itunes.apple.com/US/app/id806821055
+description: iMath takes the hassle out of practicing your basic mathematics skills. Simply select your operators and difficulties and start practicing!
+background: '#f0c312'
+---
+iMath takes the hassle out of practicing your basic mathematics skills. Simply select your operators and difficulties and start practicing! It’s all here, addition, subtraction, multiplication, and division. Once you are started you be able to go through problems at your own pace, however the time taken will be tracked so be quick!
+
+iMath is ideal for simple addition, subtraction, learning your times tables, and honing your division skills.
+
+While you are answering question, you can easily take a break and view the problems you have already answered!

@@ -40,7 +40,7 @@
     @include fs--body;
   }
 
-  p {
+  p:first-child {
     @include fs--body;
     color: #515862;
   }

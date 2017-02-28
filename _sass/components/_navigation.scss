@@ -56,4 +56,13 @@
   &.is-active:after {
     background: $c__white;
   }
+
+  &.social {
+    float: right;
+    margin-left: 1.5rem;
+  }
+
+  &.social i {
+    size: 50
+  }
 }

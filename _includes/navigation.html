@@ -1,7 +1,9 @@
 <nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
   <div class="c-navigation__container u-container">
-    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Articles</a>
-    <a class="c-navigation__item {% if page.url == '/about/' %}is-active{% endif %}" href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">About</a>
+    <a class="c-navigation__item {% if page.url == '/apps/' %}is-active{% endif %}" href="{{ "/apps/" | prepend: site.baseurl }}">Apps</a>
+    <a class="c-navigation__item {% if page.url == '/blog/' %}is-active{% endif %}" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a>
+    {% if site.twitterUsername %}<a class="c-navigation__item social" href="https://twitter.com/{{ site.twitterUsername }}"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>{% endif %}
+    {% if site.githubUsername %}<a class="c-navigation__item social" href="https://github.com/{{ site.githubUsername }}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>{% endif %}
   </div>
 </nav>

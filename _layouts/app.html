@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="t-{{ site.themeColor }}">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+
+    <article>
+      <header class="app-page-header" style="background: {{ page.background }} !important;">
+        <div class="u-container">
+          <img class="app-icon" src="{{ page.icon }}"></img>
+          <h1>{{ page.title }}</h1>
+          <h3>{{ page.subtitle }}</h3>
+          <a href="{{ post.appstore_url }}" target="_blank"><img class="app-store" src="{{ "/assets/img/app-store-black-on-color.png" | prepend: site.baseurl }}"></img></a>
+        </div>
+      </header>
+
+      <div class="c-article__main">
+        {{ content }}
+      </div>
+    </article>
+
+    {% include footer.html %}
+  </body>
+</html>

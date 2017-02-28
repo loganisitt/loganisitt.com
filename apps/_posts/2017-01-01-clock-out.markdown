@@ -1,0 +1,16 @@
+---
+layout: app
+title:  Clock Out
+subtitle: Shift Tracker for your Job
+icon: http://is1.mzstatic.com/image/thumb/Purple82/v4/49/08/03/4908039b-ed26-9d7c-4df9-e938e16491b5/source/175x175bb.jpg
+appstore_url: https://itunes.apple.com/app/id534278133
+description: Clock Out is a tool developed to keep track of your work and pay at your job. Using Clock out you may store shifts and view them later...
+background: '#2c3c53'
+---
+Clock Out is a tool developed to keep track of your work and pay at your job. Using Clock out you may store shifts and view them later. You will be able to view when you started a shift, when you ended a shift, the time spent working, how much you made, your break length (if you take one), and any notes (if you make one). You may also view information by entering a start date and an end date, this will show the amount of shifts worked in this period, how much you worked and made, as well as some averages. This information can be exported through email to employers or for your own personal storage.
+
+Features:
+* Store a shift and view the start time, end time, time spent working, time spent on break, the amount made, and your notes for that shift
+* View all your shifts easily in the shifts section, here you will be able to delete shifts as well as edit shifts already stored.
+* View your income for any time period, in addition you will see time spent working, number of shifts worked and some averages.
+* Export shifts via email to employers or just to keep.
