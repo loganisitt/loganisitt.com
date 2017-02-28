@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Apps
+   ========================================================================== */
+.app-page-header {
+    padding: 9.6em 2.5em 8.8em;
+
+    h1 {
+        position: relative;
+        @include ff--mono(500);
+        @include fs--title;
+        color: $c__white;
+
+        span {
+            color: rgba(#fff, .5);
+        }
+    }
+
+    h3 {
+        position: relative;
+        @include ff--mono(500);
+        @include fs--heading-3;
+        color: $c__white;
+
+        span {
+            color: rgba(#fff, .5);
+        }
+    }
+
+    .app-icon {
+        float: left;
+        max-height: 150px;
+        border-radius: 19%;
+        margin-right: 2em;
+    }
+
+    .app-store {
+        float: left;
+        margin-top: 1em;
+        max-height: 40px;
+    }
+}
