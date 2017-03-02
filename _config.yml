@@ -36,8 +36,12 @@ fixedNav: 'true' # true or false
 
 permalink: /:year/:month/:title
 markdown: kramdown
+
+gems: ['kramdown']
+
 include: [_pages]
-exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+exclude: [_site, 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
 sass:
   style: compressed
 
