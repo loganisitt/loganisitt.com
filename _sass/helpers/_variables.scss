@@ -2,6 +2,7 @@
    Variables
    ========================================================================== */
 
+
 // Colors
 $c__red: #F44336;
 $c__pink: #E91E63;
@@ -26,31 +27,35 @@ $c__blue-grey: #607D8B;
 $c__black: #000000;
 $c__white: #ffffff;
 
+
 // Theme
 $t-theme: $c__indigo;
 
-// Options
 
-$enable-transitions:        true !default;
-$enable-hover-media-query:  false !default;
+// Options
+$enable-transitions: true !default;
+$enable-hover-media-query: false !default;
+
 
 // Carousel
-
-$carousel-control-color:                      $c__white !default;
-$carousel-control-width:                      15% !default;
-$carousel-control-opacity:                    .5 !default;
-
-$carousel-indicator-width:                    30px !default;
-$carousel-indicator-height:                   3px !default;
-$carousel-indicator-spacer:                   3px !default;
-$carousel-indicator-active-bg:                $c__white !default;
-
-$carousel-caption-width:                      70% !default;
-$carousel-caption-color:                      $c__white !default;
-
-$carousel-control-icon-width:                 20px !default;
-
+$carousel-control-color: $c__white !default;
+$carousel-control-width: 15% !default;
+$carousel-control-opacity: 0.5 !default;
+$carousel-indicator-width: 30px !default;
+$carousel-indicator-height: 3px !default;
+$carousel-indicator-spacer: 3px !default;
+$carousel-indicator-active-bg: $c__white !default;
+$carousel-caption-width: 70% !default;
+$carousel-caption-color: $c__white !default;
+$carousel-control-icon-width: 20px !default;
 $carousel-control-prev-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{$carousel-control-color}' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"), "#", "%23") !default;
 $carousel-control-next-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{$carousel-control-color}' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"), "#", "%23") !default;
+$carousel-transition: transform 0.6s ease-in-out !default;
 
-$carousel-transition:           transform .6s ease-in-out !default;
+
+// Form
+$form-text: $c__light-grey;
+$form-width: 400px;
+$form-base: $c__light-blue;
+$form-cubic: cubic-bezier(.64,.09,.08,1);
+$form-invalid: $c__red;

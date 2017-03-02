@@ -2,8 +2,11 @@
   <div class="u-container c-footer__container">
     <p>&copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
     <p>
-      {% if site.twitterUsername %}<a href="https://twitter.com/{{ site.twitterUsername }}"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Twitter</a>{% endif %}
-      {% if site.githubUsername %}<a href="https://github.com/{{ site.githubUsername }}"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a>{% endif %}
+      {% if site.githubUsername %}<a href="https://github.com/{{ site.githubUsername }}" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a>{% endif %}
+      {% if site.instagramUsername %}<a href="https://www.instagram.com//{{ site.instagramUsername }}" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a>{% endif %}
+      {% if site.linkedInUsername %}<a href="https://www.linkedin.com/in/{{ site.linkedInUsername }}" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> LinkedIn</a>{% endif %}
+      {% if site.snapchatUsername %}<a href="https://www.snapchat.com/add/{{ site.snapchatUsername }}" target="_blank"><i class="fa fa-snapchat fa-lg" aria-hidden="true"></i> Snapchat</a>{% endif %}
+      {% if site.twitterUsername %}<a href="https://twitter.com/{{ site.twitterUsername }}" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Twitter</a>{% endif %}
     </p>
   </div>
 </footer>

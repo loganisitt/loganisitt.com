@@ -25,8 +25,9 @@ url: "http://example.com" # the base hostname & protocol for your site
 # Social
 githubUsername: loganisitt
 twitterUsername: Logan_Is_itt
-dribbbleUsername:
-codepenUsername:
+linkedInUsername: loganisitt
+instagramUsername: loganisitt
+snapchatUsername: lai42
 
 # Build settings
 markdown: kramdown
