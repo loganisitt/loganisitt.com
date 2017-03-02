@@ -7,11 +7,13 @@
 }
 
 .c-article__main {
-  max-width: 76rem; // 760px;
+
+  // max-width: 76rem; // 760px;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   @include fs--body;

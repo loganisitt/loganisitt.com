@@ -2,10 +2,17 @@
 layout: app
 title:  iSpell
 subtitle: Spelling Tests/Words Helper
-icon: http://is4.mzstatic.com/image/thumb/Purple2/v4/e2/f4/b5/e2f4b5b4-3354-6c64-5d71-bfd10e471da6/source/175x175bb.jpg
 appstore_url: https://itunes.apple.com/us/app/id535702614
 description: iSpell was built with one thing in mind, to help kids learn their spelling words. Using a variety of different techniques your child will ace his spelling test, excel in a spelling...
 background: '#785039'
+folder: ispell
+screenshots:
+- ['/assets/img/apps/ispell/screenshot-1.jpg']
+- ['/assets/img/apps/ispell/screenshot-2.jpg']
+- ['/assets/img/apps/ispell/screenshot-3.jpg']
+- ['/assets/img/apps/ispell/screenshot-4.jpg']
+- ['/assets/img/apps/ispell/screenshot-5.jpg']
+permalink: /apps/ispell
 ---
 iSpell was built with one thing in mind, to help kids learn their spelling words. Using a variety of different techniques your child will ace his spelling test, excel in a spelling bee, or simply improve his spelling skills.
 

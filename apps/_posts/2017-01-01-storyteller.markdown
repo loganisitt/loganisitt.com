@@ -2,10 +2,17 @@
 layout: app
 title: Storyteller Deluxe
 subtitle: Story Creation Made Easy
-icon: http://is3.mzstatic.com/image/thumb/Purple2/v4/ef/96/4f/ef964f18-8950-cc42-d1e9-73972e987e24/source/175x175bb.jpg
 appstore_url: https://itunes.apple.com/US/app/id598404275
 description: Make a story right from your iPhone, touch, or iPad! Storyteller Deluxe makes it simple for you to get your creative side going, providing...
 background: '#553a28'
+folder: storyteller
+screenshots:
+- ['/assets/img/apps/storyteller/screenshot-1.jpg']
+- ['/assets/img/apps/storyteller/screenshot-2.jpg']
+- ['/assets/img/apps/storyteller/screenshot-3.jpg']
+- ['/assets/img/apps/storyteller/screenshot-4.jpg']
+- ['/assets/img/apps/storyteller/screenshot-5.jpg']
+permalink: /apps/storyteller
 ---
 Make a story right from your iPhone, touch, or iPad! Storyteller Deluxe makes it simple for you to get your creative side going, providing you with a way to make your very own personalized stories, whether they are short or long stories each page may include text, a photo and an audio recording! Everything you need to make an awesome story!
 

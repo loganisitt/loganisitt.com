@@ -28,7 +28,8 @@
 
     .app-icon {
         float: left;
-        max-height: 150px;
+        height: 150px;
+        width: 150px;
         border-radius: 19%;
         margin-right: 2em;
     }
@@ -38,4 +39,26 @@
         margin-top: 1em;
         max-height: 40px;
     }
+}
+
+.screenshot-container {
+    float: right;
+    margin-left: 2em;
+
+    .framed-screenshot {
+      background-size: 79.5%, 100%;
+      background-position: 50% 51%, center;
+      background-repeat: no-repeat, no-repeat;
+    }
+}
+
+.content-container {
+    margin-top: 2em;
+}
+
+.clearfix {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    clear: both;
 }
