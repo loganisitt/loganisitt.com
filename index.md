@@ -2,7 +2,6 @@
 layout: page
 title: About Me
 ---
-Blah blah blah... write about yourself.
 
 ### Experience
 #### iOS Engineer, POSSIBLE Mobile
