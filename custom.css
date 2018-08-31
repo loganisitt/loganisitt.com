@@ -1,0 +1,84 @@
+body {
+  background-color: #1995AD;
+  color: white;
+}
+
+.tag {
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #1995AD;
+  margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.carousel {
+  height: 490.9px;
+}
+
+.app_store img {
+  vertical-align: baseline;
+}
+
+.app_store:hover {
+  text-decoration: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-mobile {
+    background-color: #1995AD;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.social-links > ul > li > a {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.side-menu > ul > li > a {
+    color:#fff;
+    border: 2px solid #fff;
+}
+h1{
+color: #fff;
+}
+
+p {
+    color:#fff;
+    font-weight: 400;
+}
+
+.navbar navbar-default navbar-fixed-top {
+    color: #fff;
+}
+
+#carousel img {
+  height: 491px;
+  width: 276px;
+}
+
+.iphone__container.mobile {
+  position: relative;
+  right: -50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 426px) {
+  .iphone__container.mobile {
+    display: none;
+  }
+}
+
+.iphone__container.mobile img {
+  width: 100%;
+  height: auto;
+}

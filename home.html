@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Logan Isitt</title>
+
+
+  <!-- CSS Plugins -->
+  <link href="scripts/fullPagejs/dist/jquery.fullpage.min.css" rel="stylesheet">
+  <link href="animate.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+
+
+  <!-- CSS Global -->
+  <link href="styles_light.css" rel="stylesheet">
+
+  <link href="custom.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- MAIN CONTENT
+  ================================================== -->
+
+  <!-- Background Image -->
+  <div class=""></div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#about"><img height="100px" src="assets/logo.png"></a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a href="https://itunes.apple.com/us/developer/brogan-llc/id1294117715" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fab fa-apple fa-stack-1x"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/loganisitt" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/loganisitt" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/Logan_Is_Itt" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:logan.isitt@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fas fa-envelope fa-stack-1x"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+    <!-- /.container -->
+  </nav>
+
+
+  <!-- Side menu -->
+  <div class="side-menu hidden-xs hidden-sm">
+    <ul class="menu">
+      <li data-menuanchor="about">
+        <a href="#about"></a>
+      </li>
+      <li data-menuanchor="clockin">
+        <a href="#clockin"></a>
+      </li>
+      <li data-menuanchor="ohsnap">
+        <a href="#ohsnap"></a>
+      </li>
+      <li data-menuanchor="planetout">
+        <a href="#planetout"></a>
+      </li>
+      <li data-menuanchor="spellitout">
+        <a href="#spellitout"></a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Devices -->
+  <div class="device__container hidden-xs">
+
+    <!-- iPhone -->
+    <div class="iphone__container white">
+
+      <!-- Slides -->
+      <div class="iphone__screen">
+        <div class="device__slides">
+          <!-- Logan Slides -->
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block" src="assets/logan_1.jpg" alt="Logan in Spain">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="assets/logan_2.jpg" alt="Logan & Jordan in Asheville">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="assets/logan_3.jpg" alt="Logan & Maddie at Sweetwater Creek">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="assets/logan_4.jpg" alt="Logan & Jordan in Denver">
+              </div>
+            </div>
+          </div>
+          <!-- Clock In Slides -->
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/clockin_1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/clockin_2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/clockin_3.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/clockin_4.png" alt="Fourth slide">
+              </div>
+            </div>
+          </div>
+          <!-- Oh Snap Slides -->
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/ohsnap_1.png" alt="First slide">
+              </div>
+            </div>
+          </div>
+          <!-- Planet Out Slides -->
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/planetout_1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/planetout_2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/planetout_3.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/planetout_4.png" alt="Third slide">
+              </div>
+            </div>
+          </div>
+          <!-- Spell It Out Slides -->
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/spellitout_1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/spellitout_2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/spellitout_3.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/spellitout_4.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/spellitout_5.png" alt="Third slide">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- / .device__container -->
+
+
+  <!-- Sections -->
+  <div id="fullpage">
+
+    <!-- About Logan -->
+    <section data-anchor="about">
+      <div class="container">
+
+        <div class="iphone__container white mobile">
+          <div class="iphone__screen">
+            <img src="assets/phone.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-sm-6 col-md-5 col-md-6">
+            <h2 data-animate-in="fadeIn">
+              Logan Isitt
+              <br />
+            </h2>
+            <p class="delay_1" data-animate-in="fadeIn">
+              I was raised in Deland, Florida along with his four siblings and later attended Florida State University. During my time
+              there I was involved in a student organization that traveled to other college universities to participate in
+              hackathons. I left Florida State University before graduating to pursue a career in mobile development in Atlanta.
+              <br><br> I have now lived in Atlanta for nearly 3 years and in that time I have worked at various tech companies,
+              adopted my Dog, Maddie, bought a home in Old Fourth Ward, finished my Computer Science degree and met my girlfriend,
+              Jordan.
+
+            </p>
+            <span class="tag delay_2" data-animate-in="fadeIn">Swift</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Hiking</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Node.js</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Coffee Shops</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Objective C</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Traveling</span>
+            <div>
+
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- Clock In -->
+    <section data-anchor="clockin">
+      <div class="container">
+
+        <div class="iphone__container white mobile">
+          <div class="iphone__screen">
+            <img src="assets/phone2.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-sm-6 col-md-5 col-md-6">
+            <h2 data-animate-in="fadeIn">
+              Clock In
+              <a href="https://itunes.apple.com/us/app/clock-in-work-hours-tracker/id534278133?mt=8" class="app_store delay_2" data-animate-in="fadeIn"
+                target="_blank">
+                <img src="assets/badge.svg">
+              </a>
+              <br />
+            </h2>
+            <p class="delay_1" data-animate-in="fadeIn">
+              The idea to develop Clock In came to me the summer after I finished high school, 2011. I had just gotten into iOS development
+              and wanted a simple work time calculator. The first iteration was very simple and was just that - a calculator.
+              Over the next few months I built out more functionality, like storing your shifts, and emailing them. I worked
+              on it off and on for a few years. At the beginning of 2017, I decided to start adding even more functionality
+              and a redesign. Today, Clock In allows users to visualizes their shifts with a custom built calendar component,
+              track multiply jobs, export in a variety of formats, view by pay period, and more.
+              <br/>
+            </p>
+            <span class="tag delay_2" data-animate-in="fadeIn">Core Data</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">iCloud</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Push Notifications</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">StoreKit</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Admob</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Crashlytics</span>
+            <div>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+
+
+
+    <!-- Oh Snap-->
+    <section data-anchor="ohsnap">
+      <div class="container">
+
+        <div class="iphone__container white mobile">
+          <div class="iphone__screen">
+            <img src="assets/phone3.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-sm-6 col-md-5 col-md-6">
+            <h2 data-animate-in="fadeIn">
+              Oh Snap
+              <a href="https://itunes.apple.com/us/app/oh-snap-random-reminders/id1396192612?mt=8" class="app_store delay_2" data-animate-in="fadeIn"
+                target="_blank">
+                <img src="assets/badge.svg">
+              </a>
+              <br />
+            </h2>
+            <p class="delay_1" data-animate-in="fadeIn">
+              I often need to be remind to do something a lot. I found that the short coming of reminders app is that you have to remember
+              to open the app to see your reminders. With Oh, I wanted adding a reminder to be as simple as possible, and
+              then never have to open the app again, or at least a few days, but constantly be notified of my reminders.
+              That’s all it is, simply add a reminder, give it an intensity, and get notified.
+              <br/>
+            </p>
+            <span class="tag delay_2" data-animate-in="fadeIn">Core Data</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Push Notifications</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Crashlytics</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">StoreKit</span>
+            <div>
+
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+
+    <!-- Planet Out -->
+    <section data-anchor="planetout">
+      <div class="container">
+
+        <div class="iphone__container white mobile">
+          <div class="iphone__screen">
+            <img src="assets/phone4.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-sm-6 col-md-5 col-md-6">
+            <h2 data-animate-in="fadeIn">
+              Planet Out
+              <a href="https://itunes.apple.com/us/app/planet-out-word-ladder-game/id1294117716?mt=8" class="app_store delay_2" data-animate-in="fadeIn"
+                target="_blank">
+                <img src="assets/badge.svg">
+              </a>
+              <br />
+            </h2>
+            <p class="delay_1" data-animate-in="fadeIn">
+              While attending a hackathon focused on civil transportation I voiced an idea about a word game, and my team decided to hash
+              out the dynamics involved with making it work. Essentially, Planet Out is about moving letter tiles  in such
+              a way that whatever letter you change creates a new word, e.g. wow -> woe -> toe -> tie. This concept is known
+              as word ladders and is something I find doing in my head from time to time. The next two months of <strong><a
+                  href="http://www.jordanford.io/" target="_blank">Jordan</a></strong> and I’s life basically revolved around making this app. She
+              designed it; I developed it. <strong><a href="http://www.brogan.io/" target="_blank">Brogan</a></strong> was born, and Planet Out was released.
+              <br/>
+            </p>
+            <span class="tag delay_2" data-animate-in="fadeIn">SpriteKit</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">Lottie</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">GameKit</span>
+            <div>
+
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- Spell It Out -->
+    <section data-anchor="spellitout">
+      <div class="container">
+
+        <div class="iphone__container white mobile">
+          <div class="iphone__screen">
+            <img src="assets/phone4.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-sm-6 col-md-5 col-md-6">
+            <h2 data-animate-in="fadeIn">
+              Spell It Out
+              <a href="https://itunes.apple.com/us/app/spelling-bee-vocabulary-test/id1348293177?mt=8" class="app_store delay_2" data-animate-in="fadeIn"
+                target="_blank">
+                <img src="assets/badge.svg">
+              </a>
+              <br />
+            </h2>
+            <p class="delay_1" data-animate-in="fadeIn">
+              Everyone has an app idea, and in the case of Spell It Out, I decided to developed my mom’s idea for some spelling games.
+              The original Spell It Out was called iSpell and helped kids learn their spelling words with varies activities
+              such as unscrambling words, spelling them backwards, a word search, and of course, a spelling test. Jordan
+              updated the old chalkboard inspired design to something much more pleasing, and I scrapped the old project
+              in favor of a brand new swift app.
+              <br/>
+            </p>
+            <span class="tag delay_2" data-animate-in="fadeIn">Realm</span>
+            <span class="tag delay_2" data-animate-in="fadeIn">CoreGraphics</span>
+            <div>
+
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+  </div>
+  <!-- / #fullpage -->
+
+
+  <!-- RESOURCES
+================================================== -->
+
+  <!-- JS Global -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+
+
+  <!-- JS Plugins -->
+  <script src="scripts/fullPagejs/dist/jquery.fullpage.min.js"></script>
+
+  <!-- JS Custom -->
+  <script src="scripts/custom.js"></script>
+
+
+</body>
+
+</html>
